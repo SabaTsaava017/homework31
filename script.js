@@ -64,17 +64,26 @@ function calculateSum(numbers) {
         const result3 = compareNumbers(4, 4);
         console.log(result3); 
 
+//6.შექმენით ფუნქცია რომელიც არგუმენტად მიიღებს ტექსტს, თუ ტექსტის სიგრძე ნაკლებია 6 ზე ფუნქციამ  არაფერი დააბრუნოს  (დაწერთ if პირობას და შიგნით უბრალოდ return)
+        
 
 
+function checkTextLength(text) {
+          if (text.length < 6) {
+            return;
+          }
+        
+        }
 
 
+//8.დაწერეთ ფუნქცია რომელიც არგუმენტად მიიღებს მასივს და დააბრუნებს სტრინგს (გამოიყენეთ toString() მეთოდი)
+        const myArray = [1, 2, 3, 4, 5];
+        const result7 = arrayToString(myArray);
 
 
+        function arrayToString(arr) {
+          return arr.toString();
+        }
 
+        console.log(result7);
 
-
-
-
-
-
-//3.შექმენით ფუნქცია, რომელიც არგუმენტად მიიღებს რიცხვს და დააბრუნებს ამ რიცხვის კვადრატს 
